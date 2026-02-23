@@ -1,17 +1,5 @@
 # 🌹 Luvé — Phase 2: React
 
-## How to Run
-
-```bash
-cd luve-react
-npm install
-npm start
-```
-
-Open http://localhost:3000 — your Luvé site is now in React!
-
----
-
 ## 📁 File Structure
 
 ```
@@ -41,8 +29,7 @@ src/
 ```
 
 ---
-
-## 🎓 What You Learned in Phase 2
+In Phase 2
 
 ### 1. Functional Components
 Every UI piece is a function that returns JSX.
@@ -111,10 +98,6 @@ Cart state lives in App.jsx and is passed to Navbar + CartSidebar.
 {cartCount > 0 && <span>{cartCount}</span>}
 {isOpen ? <CartSidebar /> : null}
 ```
-
----
-
-## ➡️ What's Next: Phase 3 (Next.js)
 
 In Phase 3 you'll convert this to Next.js App Router:
 - Each "page" (/, /shop, /product/[id]) becomes a separate file
