@@ -98,9 +98,3 @@ Cart state lives in App.jsx and is passed to Navbar + CartSidebar.
 {cartCount > 0 && <span>{cartCount}</span>}
 {isOpen ? <CartSidebar /> : null}
 ```
-
-In Phase 3 you'll convert this to Next.js App Router:
-- Each "page" (/, /shop, /product/[id]) becomes a separate file
-- Images use Next.js `<Image>` component (faster loading)
-- SEO metadata added per page
-- Server Components vs Client Components
